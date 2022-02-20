@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Personas">
+		<centered>1</centered>
+		<size>559,450</size>
+		<fg>wxSYS_COLOUR_HIGHLIGHT</fg>
+		<bg>wxSYS_COLOUR_INFOBK</bg>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="txCedula" member="yes">
+			<label>Cédula:</label>
+			<pos>16,104</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="txApellidos" member="yes">
+			<label>Apellidos:</label>
+			<pos>16,192</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="txNombre" member="yes">
+			<label>Nombre:</label>
+			<pos>16,280</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="cedula" member="yes">
+			<pos>96,96</pos>
+			<size>121,30</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="apellidos" member="yes">
+			<pos>96,184</pos>
+			<size>121,30</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="nombre" member="yes">
+			<pos>96,272</pos>
+			<size>121,30</size>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL1" variable="Lista" member="yes">
+			<pos>232,96</pos>
+			<size>304,280</size>
+			<handler function="OnListaItemSelect" entry="EVT_LIST_ITEM_SELECTED" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="bRecuperar" member="yes">
+			<label>Recuperar</label>
+			<pos>24,408</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbRecuperarClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="bNuevo" member="yes">
+			<label>Nuevo</label>
+			<pos>128,408</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbNuevoClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="bEliminar" member="yes">
+			<label>Eliminar</label>
+			<pos>232,408</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbEliminarClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="bGuardar" member="yes">
+			<label>Guardar</label>
+			<pos>344,408</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbGuardarClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="txResultados" member="yes">
+			<label>RESULTADOS</label>
+			<pos>312,72</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="txPersonas" member="yes">
+			<label>PERSONAS</label>
+			<pos>208,32</pos>
+			<size>120,21</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="bSalir" member="yes">
+			<label>Salir</label>
+			<pos>448,408</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnbSalirClick2" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>
